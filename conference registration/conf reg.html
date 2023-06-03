@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Conference Registration</h1>
+
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+
+    <div class="form-group">
+      <label for="affiliation">Affiliation:</label>
+      <input type="text" id="affiliation" name="affiliation" required>
+    </div>
+
+    <div class="form-group">
+      <label for="dietary">Dietary Preferences:</label>
+      <input type="checkbox" id="vegetarian" name="dietary" value="vegetarian">
+      <label for="vegetarian">Vegetarian</label>
+      <input type="checkbox" id="vegan" name="dietary" value="vegan">
+      <label for="vegan">Vegan</label>
+      <input type="checkbox" id="gluten-free" name="dietary" value="gluten-free">
+      <label for="gluten-free">Gluten-free</label>
+    </div>
+
+    <div class="form-group">
+      <label for="workshop">Preferred Workshop:</label>
+      <select id="workshop" name="workshop" class="workshop-dropdown" required>
+        <option value="">Select Workshop</option>
+        <option value="workshop1">Workshop 1</option>
+        <option value="workshop2">Workshop 2</option>
+        <option value="workshop3">Workshop 3</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label>Registration Type:</label>
+      <div class="radio-group">
+        <input type="radio" id="general" name="registration-type" value="general" required>
+        <label for="general">General Attendee</label>
+
+        <input type="radio" id="student" name="registration-type" value="student">
+        <label for="student">Student</label>
+
+        <input type="radio" id="vip" name="registration-type" value="vip">
+        <label for="vip">VIP</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <input type="submit" value="Submit Registration" class="submit-button">
+    </div>
+  </form>
+
+
+    
+</body>
+</html>
