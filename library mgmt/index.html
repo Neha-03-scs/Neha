@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library Management System</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Library Management System</h1>
+
+
+  <h2>Add New Book</h2>
+  <form id="bookForm">
+    <input type="text" id="title" placeholder="Title" required>
+    <input type="text" id="author" placeholder="Author" required>
+    <input type="text" id="genre" placeholder="Genre" required>
+    <button type="submit">Add Book</button>
+  </form>
+
+  
+  <h2>Books</h2>
+  <ul id="bookList"></ul>
+
+  
+  <h2>Search Books</h2>
+  <form id="searchForm">
+    <input type="text" id="searchQuery" placeholder="Search Query" required>
+    <button type="submit">Search</button>
+  </form>
+
+  
+  <h2>Search Results</h2>
+  <ul id="searchResults"></ul>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>

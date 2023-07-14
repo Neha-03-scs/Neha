@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 40px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], button {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #0f4511;
+    color: rgb(224, 217, 223);
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
