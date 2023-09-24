@@ -1,0 +1,10 @@
+Suicidal Ideation Detection: A Review of Machine Learning Methods and Applications
+
+
+Deep learning, feature engineering, social content,suicidal ideation detection (SID).
+
+
+Suicidal_Ideation_Detection
+
+
+suicidal_ideation_detection
